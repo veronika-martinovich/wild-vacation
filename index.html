@@ -10,8 +10,8 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="wrapper-image">
-        <div class="wrapper-blackout">
+    <div class="banner-wrapper">
+        <div class="banner-blackout">
             <header class="header">
                 <div class="logo">
                     <img src="assets/images/Logo.png" alt="Wild vacation logo image">
@@ -20,32 +20,32 @@
                     <div class="lang__item">Eng</div>
                     <div class="lang__item lang__item_selected">Рус</div>
                 </div>
-                <div class="nav-icon">
-                    <img src="assets/images/nav-icon.png" alt="Navigation icon">
+                <div class="nav-ico">
+                    <span class="ico ico_hamburger"></span>
                 </div>
                 <nav class="nav">
-                    <ul class="nav-list nav-list_hidden">
-                        <li class="nav-list__item"><a href="#">О нас</a></li>
-                        <li class="nav-list__item"><a href="#">Туры</a></li>
-                        <li class="nav-list__item"><a href="#">Виза</a></li>
-                        <li class="nav-list__item"><a href="#">Агентам</a></li>
-                        <li class="nav-list__item"><a href="#">Контакты</a></li>
-                        <li class="nav-list__item"><a href="#">Помощь</a></li>
+                    <ul class="nav__list nav__list_hidden">
+                        <li class="nav__item"><a href="#">О нас</a></li>
+                        <li class="nav__item"><a href="#">Туры</a></li>
+                        <li class="nav__item"><a href="#">Виза</a></li>
+                        <li class="nav__item"><a href="#">Агентам</a></li>
+                        <li class="nav__item"><a href="#">Контакты</a></li>
+                        <li class="nav__item"><a href="#">Помощь</a></li>
                     </ul>
                 </nav>
             </header>
 
             <section class="banner">
-                <div class="banner-headings">
-                    <h2 class="banner-headings__heading banner-headings__heading_size_l">Исследуйте мир вместе с нами</h2>
-                    <h4 class="banner-headings__heading banner-headings__heading_size_s">Брось себе вызов. Отправься в путешествия в дикие уголки природы.</h4>
+                <div class="banner__headings-container">
+                    <h2 class="banner__heading heading_size_l">Исследуйте мир вместе с нами</h2>
+                    <h4 class="banner__heading heading_size_s">Брось себе вызов. Отправься в путешествия в дикие уголки природы.</h4>
                 </div>
 
                 <form action="#" class="search-form">
-                    <h4 class="search-form__heading search-form__heading_size_s">Быстрый поиск тура</h4>
+                    <h4 class="search-form__heading heading_size_s">Быстрый поиск тура</h4>
                     <input type="text" name="search-form__place-input" class="search-form__place-input" placeholder="Куда">
                     <div class="search-form__lens-icon">
-                        <img src="assets/images/lens-icon.png" alt="Lens icon">
+                        <span class="ico ico_lens"></span>
                     </div>
                     <input type="text" name="search-form__date-input" class="search-form__date-input" placeholder="Когда">
                     <input type="text" name="search-form__duration-input" class="search-form__duration-input" placeholder="Куда">
@@ -61,23 +61,23 @@
              </section>
 
              <section class="why-us">
-                 <h3 class="why-us__heading why-us__heading_size_m">Почему именно мы</h3>
+                 <h3 class="why-us__heading heading_size_m">Почему именно мы</h3>
                  <div class="why-us__list">
                     <div class="why-us__item">
-                        <img src="assets/images/visa.png" alt="Visa icon" class="why-us__icon">
-                        <h4 class="why-us__heading why-us__heading_size_s">Визовая поддержка клиентов</h4>
+                        <span class="ico ico_visa"></span>
+                        <h4 class="why-us__heading heading_size_s">Визовая поддержка клиентов</h4>
                      </div>
                      <div class="why-us__item">
-                        <img src="assets/images/world.png" alt="World icon" class="why-us__icon">
-                        <h4 class="why-us__heading why-us__heading_size_s">Направления по всему миру</h4>
+                        <span class="ico ico_world"></span>
+                        <h4 class="why-us__heading heading_size_s">Направления по всему миру</h4>
                      </div>
                      <div class="why-us__item">
-                        <img src="assets/images/hunter.png" alt="Hunter icon" class="why-us__icon">
-                        <h4 class="why-us__heading why-us__heading_size_s">Сопровождение опытными гидами</h4>
+                        <span class="ico ico_hunter"></span>
+                        <h4 class="why-us__heading heading_size_s">Сопровождение опытными гидами</h4>
                      </div>
                      <div class="why-us__item">
-                        <img src="assets/images/bbq.png" alt="BBq icon" class="why-us__icon">
-                        <h4 class="why-us__heading why-us__heading_size_s">Полное обеспечение снаряжением</h4>
+                        <span class="ico ico_bbq"></span>
+                        <h4 class="why-us__heading heading_size_s">Полное обеспечение снаряжением</h4>
                      </div>
                  </div>
              </section>
@@ -86,7 +86,7 @@
     
     <main>
         <section class="directions">
-            <h3 class="directions__heading directions__heading_size_m">Актуальные направления</h3>
+            <h3 class="directions__heading heading_size_m">Актуальные направления</h3>
             <div class="directions__list">
                 <div class="directions__item">
                     <img src="assets/images/Rectangle poster1.png" alt="Camping poster" class="directions__poster">
@@ -94,7 +94,7 @@
                         <div class="directions__cost">от <span> 460$</span></div>
                         <div class="directions__date">26 октября 2019, 7 дней</div>
                     </div>
-                    <h3 class="directions__heading directions__heading_size_s">Кемпинг в Хардангере – сердце Региона фьордов</h3>
+                    <h3 class="directions__heading heading_size_s">Кемпинг в Хардангере – сердце Региона фьордов</h3>
                     <p class="directions__description">Одно из лучших мест отдыха находится в районе Хардангера, у туристов есть возможность ежедневно любоваться дикой природой севера.</p>
                     <p class="directions__more">Подробнее</p>
                 </div>
@@ -105,7 +105,7 @@
                         <div class="directions__cost">от <span>520$</span></div>
                         <div class="directions__date">11 ноября 2019, 5 дней</div>
                     </div>
-                    <h3 class="directions__heading directions__heading_size_s">Треккинг по Согне-фьорд с восхождением на Гальхёпигген</h3>
+                    <h3 class="directions__heading heading_size_s">Треккинг по Согне-фьорд с восхождением на Гальхёпигген</h3>
                     <p class="directions__description">Уникальный поход совмещенный с путешествием по самому большому и красивому фьорду – Согне-фьорд.</p>
                     <p class="directions__more">Подробнее</p>
                 </div>
@@ -116,33 +116,33 @@
                         <div class="directions__cost">от <span>440$</span></div>
                         <div class="directions__date">12 ноября 2019, 5 дней</div>
                     </div>
-                    <h3 class="directions__heading directions__heading_size_s">Восхождение на гору Ушба в регионе Сванети</h3>
+                    <h3 class="directions__heading heading_size_s">Восхождение на гору Ушба в регионе Сванети</h3>
                     <p class="directions__description">Одна из самых знаменитых гор Кавказа. Расположена она в регионе Сванети. Со сванского языка "уш" означает беда, "ба" — гору. То есть гора, приносящая несчастье.</p>
                     <p class="directions__more">Подробнее</p>
                 </div>
             </div>
-            <input type="buton" class="directions__button" value="Смотреть все">
+            <input type="button" class="directions__button" value="Смотреть все">
         </section>
 
         <section class="statistics">
-            <div class="statistics__wrapper-image">
-                <div class="statistics__wrapper-blackout">
+            <div class="statistics-wrapper">
+                <div class="statistics-blackout">
                     <div class="statistics__container">
                         <div class="statistics__item">
                             <div class="statistics__number">9</div>
-                            <div class="statistics__heading statistics__heading_size_s">Лет работы</div>
+                            <div class="statistics__heading heading_size_s">Лет работы</div>
                         </div>
                         <div class="statistics__item">
                             <div class="statistics__number">62,500</div>
-                            <div class="statistics__heading statistics__heading_size_s">Довольных клиентов</div>
+                            <div class="statistics__heading heading_size_s">Довольных клиентов</div>
                         </div>
                         <div class="statistics__item">
                             <div class="statistics__number">112</div>
-                            <div class="statistics__heading statistics__heading_size_s">Захватывающих туров</div>
+                            <div class="statistics__heading heading_size_s">Захватывающих туров</div>
                         </div>
                         <div class="statistics__item">
                             <div class="statistics__number">23</div>
-                            <div class="statistics__heading statistics__heading_size_s">Офиса в Беларуси</div>
+                            <div class="statistics__heading heading_size_s">Офиса в Беларуси</div>
                         </div>
                     </div>
                 </div>
@@ -150,50 +150,50 @@
         </section>
 
         <section class="blog">
-            <h3 class="blog__heading blog__heading_size_m">Наш блог</h3>
-            <div class="blog__list">
-                <div class="blog__item blog__item_main">
-                    <div class="blog__item-blackout">
-                        <h3 class="blog__heading blog__heading_size_m">10 мест на Земле, которые обязательно должен посетить каждый</h3>
-                        <div class="blog__date">20 октября 2019</div>
+            <h3 class="blog__heading heading_size_m">Наш блог</h3>
+            <div class="blog__article-list">
+                <div class="main-article">
+                    <div class="main-article__blackout">
+                        <h3 class="main-article__heading heading_size_m">10 мест на Земле, которые обязательно должен посетить каждый</h3>
+                        <div class="main-article__date">20 октября 2019</div>
                     </div> 
                 </div>
 
-                <div class="blog__item blog__item_secondary">
-                    <img src="assets/images/Rectangle blog sec1.png" alt="Camping poster" class="blog__poster blog__poster_secondary">
-                    <h3 class="blog__heading blog__heading_size_s">Как стать успешным тревел-блогером</h3>
-                    <p class="blog__description">Блоги о путешествиях - это актуальное пространство, и каждый день оно становится более переполненным. И многие советы, которые..</p>
-                    <div class="blog__date">17 октября 2019</div>
-                    <div class="blog__comments">
-                        <img src="assets/images/chat.png" alt="Chat icon" class="blog__comments-icon">
-                        <p class="blog__comments-amount">208</p>
+                <div class="article">
+                    <img src="assets/images/Rectangle blog sec1.png" alt="Camping poster" class="article__poster">
+                    <h3 class="article__heading heading_size_s">Как стать успешным тревел-блогером</h3>
+                    <p class="article__description">Блоги о путешествиях - это актуальное пространство, и каждый день оно становится более переполненным. И многие советы, которые..</p>
+                    <div class="article__date">17 октября 2019</div>
+                    <div class="article__comments">
+                        <span class="ico ico_comment"></span>
+                        <p>208</p>
                     </div>
-                    <div class="blog__likes">
-                        <img src="assets/images/Vector (1).png" alt="Like icon" class="blog__likes-icon blog__likes-icon_checked">
-                        <p class="blog__likes-amount">21</p>
+                    <div class="article__hearts">
+                        <span class="ico ico_heart ico_heart_checked"></span>
+                        <p>21</p>
                     </div>
                 </div>
 
-                <div class="blog__item blog__item_secondary">
-                    <img src="assets/images/Rectangle blog sec2.png" alt="Camping poster" class="blog__poster blog__poster_secondary">
-                    <h3 class="blog__heading blog__heading_size_s">Лайфхаки успешно- го путешествия по Норвегии</h3>
-                    <p class="blog__description">Норвегия — пожалуй, лучшая страна для приключенчес- кого туризма в Европе. Здесь есть все: горы для альпинистов..</p>
-                    <div class="blog__date">12 октября 2019</div>
-                    <div class="blog__comments">
-                        <img src="assets/images/chat.png" alt="Chat icon" class="blog__comments-icon">
-                        <p class="blog__comments-amount">112</p>
+                <div class="article">
+                    <img src="assets/images/Rectangle blog sec2.png" alt="Camping poster" class="article__poster">
+                    <h3 class="article__heading heading_size_s">Лайфхаки успешно- го путешествия по Норвегии</h3>
+                    <p class="article__description">Норвегия — пожалуй, лучшая страна для приключенчес- кого туризма в Европе. Здесь есть все: горы для альпинистов..</p>
+                    <div class="article__date">12 октября 2019</div>
+                    <div class="article__comments">
+                        <span class="ico ico_comment"></span>
+                        <p>112</p>
                     </div>
-                    <div class="blog__likes">
-                        <img src="assets/images/Vector (2).png" alt="Like icon" class="blog__likes-icon">
-                        <p class="blog__likes-amount">13</p>
+                    <div class="article__hearts">
+                        <span class="ico ico_heart ico_heart_unchecked"></span>
+                        <p>13</p>
                     </div>
                 </div>  
             </div>
-            <input type="buton" class="blog__button" value="Смотреть все">
+            <input type="button" class="blog__button" value="Смотреть все">
         </section>
 
         <section class="feedback">
-            <h3 class="feedback__heading feedback__heading_size_m">Отзывы наших клиентов</h3>
+            <h3 class="feedback__heading heading_size_m">Отзывы наших клиентов</h3>
             <div class="feedback__container">
                 <img src="assets/images/Photo feedback.png" alt="Reviewer's photo" class="feedback__photo">
                 <p class="feedback__text">Спасибо, что даете почувствовать себя сводобными! Ходили дважды, и каждый раз заряжались энергией на год вперед. Отдельное спасибо гиду Михаилу!</p>
@@ -227,10 +227,10 @@
         <div class="social-media">
             <div class="social-media__field-name">Мы в соцсетях</div>
             <div class="social-media__list">
-                <a href="#"><img src="assets/images/instagram.png" alt="Instagram" class="social-media__item social-media__item_instagram"></a>
-                <a href="#"><img src="assets/images/vkontakte.png" alt="Vkontakte" class="social-media__item social-media__item_vkontakte"></a>
-                <a href="#"><img src="assets/images/twitter.png" alt="Twitter" class="social-media__item social-media__item_twitter"></a>
-                <a href="#"><img src="assets/images/facebook.png" alt="Facebook" class="social-media__item social-media__item_facebook"></a>
+                <a href="#"><span class="ico ico_instagram"></span></a>
+                <a href="#"><span class="ico ico_vkontakte"></span></a>
+                <a href="#"><span class="ico ico_twitter"></span></a>
+                <a href="#"><span class="ico ico_facebook"></span></a>
             </div>
         </div>
     </footer>
